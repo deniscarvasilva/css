@@ -1,4 +1,7 @@
-#app {}
+#app {
+    display: flex;
+    flex-direction: column;
+}
 
 .box {
     height: 60px;
