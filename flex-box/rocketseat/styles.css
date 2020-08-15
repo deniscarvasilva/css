@@ -17,4 +17,5 @@ body,
     width: 60px;
     background-color: brown;
     margin: 5px;
+    flex-grow: 1;
 }
