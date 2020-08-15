@@ -7,15 +7,29 @@ body,
 
 #app {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .box {
     height: 60px;
-    width: 60px;
-    background-color: brown;
+    width: 300px;
     margin: 5px;
-    flex-grow: 1;
+}
+
+.red {
+    background-color: red;
+    order: 1;
+}
+
+.pink {
+    background-color: #f0f;
+    order: 2;
+}
+
+.blue {
+    background-color: #00f;
+    order: 0;
 }
